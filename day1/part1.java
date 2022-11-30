@@ -6,12 +6,11 @@ public class part1 {
     public static void main(String[] args)  {
         ArrayList<String> lines = InputReader.get_from_url(day_number);
         if (!part1.class.getPackage().getName().equals("day"+Integer.toString(day_number))) {
-            System.out.println("WRONG");
+            System.out.println("WRONG DAY_NUMBER ENTERED");
         }
         for (String l : lines) {
             System.out.println(l);
         }
-
         solve(lines);
     }
 
