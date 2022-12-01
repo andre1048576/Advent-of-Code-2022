@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class InputReader {
-    public static ArrayList<String> get_from_url(int day_number) {
+    public static ArrayList<String> get_input(int day_number) {
         String url = "common/inputs/day"+day_number;
         ArrayList<String> inputs = new ArrayList<>();
         try {
