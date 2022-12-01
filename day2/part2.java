@@ -1,8 +1,6 @@
 package day2;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import common.Grid;
 import common.GridString;
 import common.InputReader;
 public class part2 {
