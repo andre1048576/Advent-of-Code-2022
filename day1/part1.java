@@ -31,7 +31,6 @@ public class part1 {
                 current_highest = 0;
             }
         }
-        current_highest = 0;
         System.out.println(highest);
     }
 }
