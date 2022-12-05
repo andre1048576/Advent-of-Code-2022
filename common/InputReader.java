@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class InputReader {
     public static ArrayList<String> get_input(int day_number) {
-        String url = "common/inputs/day"+day_number;
+        String url = "common/inputs/day"+day_number+".txt";
         ArrayList<String> inputs = new ArrayList<>();
         try {
             BufferedReader read = new BufferedReader(
