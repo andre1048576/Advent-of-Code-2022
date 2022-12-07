@@ -1,7 +1,5 @@
 package day6;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import common.InputReader;
 public class part2 {
