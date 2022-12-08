@@ -32,8 +32,8 @@ public abstract class Grid<T> {
 
 
     ArrayList<ArrayList<T>> internal_grid;
-    int size_x;
-    int size_y;
+    private int size_x;
+    private int size_y;
 
     Grid(ArrayList<String> lines) {
         size_y = 0;
@@ -58,6 +58,15 @@ public abstract class Grid<T> {
         }
         return null;
     }
+
+    public int get_width() {
+        return size_x;
+    }
+
+    public int get_height() {
+        return size_y;
+    }
+
     /*
      * Returns all adjacent squares from a specified index like how we read books
      */
