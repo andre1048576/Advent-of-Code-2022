@@ -61,7 +61,7 @@ public class part2 {
     
     /**
     *
-    * @return This function returns 1 if the cell can be viewed from any side
+    * @return the number of items viewable from any grid space
     */
     public static int index_viewable(GridInteger grid, int row,int column) {
         return viewable_up(grid, row, column) *
